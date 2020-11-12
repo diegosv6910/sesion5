@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.actions > *{
+    margin: 0 10px;
+}
+
+.actions > button:hover{
+    background-color: aqua;
+}
