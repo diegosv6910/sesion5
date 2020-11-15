@@ -110,6 +110,118 @@
       }
   }
 
+  @media (min-width: 768px){
+    .navbar,
+    .actions {
+      display: none;
+    }
+  
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: springgreen;
+        font-size: 30px;
+    }
+    .banner > img {
+        max-width: 100%;
+      }
+
+      .publish{
+          font-size: 30px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .promo {
+        flex-direction: column;
+        max-width: 90%;
+        margin: 0 auto;
+      }
+    
+      .explanatory-video > video {
+        
+        width: 100%;
+      }
+    
+      .publish {
+        margin-top: 40px;
+      }
+    
+      .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+      }
+
+      .promo a button{
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: lightblue;
+      }
+     
+      .promo a button:hover{
+        background-color: lightgreen;
+        text-decoration: underline;
+      }
+    
+      .promo a button:active{
+        background-color: coral;
+      }
+
+      .features {
+        background-color: midnightblue;
+        margin-top: 10px;
+        padding: 5% 10%;
+        display: grid;
+        gap: 10px;
+        grid-template: repeat(4, 1fr) / 1fr;
+      }
+
+      .features .feature-card{
+        margin: 0 15px 10px 15px;
+        background-color: mintcream;
+        border: 1px solid #DADADA;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .features .feature-card .feature-content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        position: initial;
+      }
+
+      .features .feature-card .feature-content *{
+        margin-bottom: 16px;
+        margin-top: 0;
+      }
+
+      .features .feature-card .feature-content img{
+        width: 50px;
+      }
+
+      .features .feature-card .feature-image{
+        flex: 20;
+        width: 100%;
+        position: relative;
+        height: 100%;
+      }
+
+      .features .feature-card .feature-image figure{
+        height: 90%;
+        width: 100%;
+        position: initial;
+      }
+
+      .features .feature-card .feature-image img{
+        height: 100%;
+        width: 100%;
+        position: initial;
+      }
+  }
+
   @media (min-width: 1200px){
 
   *{
